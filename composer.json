@@ -1,0 +1,17 @@
+{
+  "name": "omgzui/spider",
+  "description": "douban top 250",
+  "keywords": ["php", "spider"],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "shark/simple_html_dom": "dev-master",
+    "illuminate/database": "^5.4",
+    "vlucas/phpdotenv": "^2.4"
+  },
+  "autoload": {
+    "classmap": ["database/"]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
