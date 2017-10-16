@@ -1,0 +1,33 @@
+# Cookies for domains related to douban.com.
+# This content may be pasted into a cookies.txt file and used by wget
+# Example:  wget -x --load-cookies cookies.txt https://movie.douban.com/subject/26363254/comments?sort=time&status=P
+#
+.douban.com	TRUE	/	FALSE	1516410811.199863	bid	pSXjiHIrNCg
+.douban.com	TRUE	/	FALSE	1581581519	gr_user_id	c9f47b14-3754-45e9-bc90-f229ac8eb902
+.douban.com	TRUE	/	FALSE	1522908531.509101	ue	"862275679@qq.com"
+accounts.douban.com	FALSE	/	FALSE	1557242087	_pk_id.100001.2fad	21aaf622e11d1bca.1494170088.1.1494170088.1494170088.
+.douban.com	TRUE	/	FALSE	1530929976.756946	viewed	"26836700_26829016_6559267_10561367_26425651_2073378_1032501_1221479_1024279_4706208"
+book.douban.com	FALSE	/	FALSE	1518031019	_pk_ref.100001.3ac3	%5B%22%22%2C%22%22%2C1502263019%2C%22https%3A%2F%2Fwww.google.com.hk%2F%22%5D
+book.douban.com	FALSE	/	FALSE	1565335163	_pk_id.100001.3ac3	219800c34c13ff26.1495861883.4.1502263164.1499393979.
+.book.douban.com	TRUE	/	FALSE	1565335163	__utma	81379588.239738388.1495861882.1499393979.1502263020.4
+.book.douban.com	TRUE	/	FALSE	1518031163	__utmz	81379588.1502263020.4.4.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+.douban.com	TRUE	/	FALSE	1510362518	ps	y
+.douban.com	TRUE	/	FALSE	1539501681.84301	ll	"118172"
+www.douban.com	FALSE	/	FALSE	1523893048	_pk_ref.100001.8cb4	%5B%22%22%2C%22%22%2C1508125049%2C%22https%3A%2F%2Fwww.google.com.hk%2F%22%5D
+www.douban.com	FALSE	/	FALSE	1571197048	_pk_id.100001.8cb4	1bcf5d7f4ec476bd.1484874812.33.1508125049.1507965692.
+.douban.com	TRUE	/	FALSE	1539747469	_vwo_uuid_v2	3824A27A13DC91C4B37F3E9DF5F08B6D|77e066790e7e9a81b5ee141e3a5d9ba6
+site.douban.com	FALSE	/	FALSE	1523893341	_pk_ref.100001.917b	%5B%22%22%2C%22%22%2C1508125342%2C%22https%3A%2F%2Fjobs.douban.com%2Fjobs%2Fintern%2F%22%5D
+site.douban.com	FALSE	/	FALSE	1571197341	_pk_id.100001.917b	baffd1ddc4a34256.1502259821.2.1508125342.1502259835.
+.douban.com	TRUE	/	FALSE	0	dbcl2	"70524655:NiX90Op/HBk"
+.douban.com	TRUE	/	FALSE	0	ck	4rAQ
+movie.douban.com	FALSE	/	FALSE	1571197810	_pk_id.100001.4cf6	cbdfa770543ec2d5.1507965819.4.1508125810.1508037288.
+.douban.com	TRUE	/	FALSE	1571197810	__utma	30149280.976179189.1507965684.1508124220.1508124547.5
+.douban.com	TRUE	/	FALSE	0	__utmc	30149280
+.douban.com	TRUE	/	FALSE	1523893810	__utmz	30149280.1508124547.5.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+.douban.com	TRUE	/	FALSE	1571197810	__utmv	30149280.7052
+.movie.douban.com	TRUE	/	FALSE	1571197810	__utma	223695111.1148825139.1507965819.1508124220.1508124547.5
+.movie.douban.com	TRUE	/	FALSE	0	__utmc	223695111
+.movie.douban.com	TRUE	/	FALSE	1523893810	__utmz	223695111.1508124547.5.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+.douban.com	TRUE	/	FALSE	1510717810	push_noty_num	0
+.douban.com	TRUE	/	FALSE	1510717810	push_doumail_num	0
+.douban.com	TRUE	/	FALSE	1510717815	ap	1

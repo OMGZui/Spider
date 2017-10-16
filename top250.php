@@ -30,7 +30,6 @@ for ($prop = 0; $prop <= 225; $prop += 25) {
     foreach ($listData as $key => $val) {
         $films250->query()->create($val);
         echo $val['title'] . ' -- ' . $val['rate'] . PHP_EOL;
-//        dd($val);
     }
 }
 //for ($prop = 0; $prop <= 225; $prop += 25) {
