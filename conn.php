@@ -6,11 +6,15 @@
  * Time: 22:38
  */
 
-require __DIR__ . '/vendor/autoload.php';
+require 'vendor/autoload.php';
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 
 $capsule = new Capsule;
+
+//加载env配置
+$dotEnv = new Dotenv\Dotenv(__DIR__);
+$dotEnv->load();
 
 $db = [
     'driver'    => 'mysql',

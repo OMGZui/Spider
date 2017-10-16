@@ -1,36 +1,36 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : root
+ Source Server         : linux-shengj
  Source Server Type    : MySQL
- Source Server Version : 50717
- Source Host           : 127.0.0.1
- Source Database       : film_top_250
+ Source Server Version : 50719
+ Source Host           : 104.223.3.138
+ Source Database       : spider
 
  Target Server Type    : MySQL
- Target Server Version : 50717
+ Target Server Version : 50719
  File Encoding         : utf-8
 
- Date: 08/27/2017 21:17:43 PM
+ Date: 10/16/2017 09:50:49 AM
 */
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
---  Table structure for `films`
+--  Table structure for `films_250`
 -- ----------------------------
-DROP TABLE IF EXISTS `films`;
-CREATE TABLE `films` (
+DROP TABLE IF EXISTS `films_250`;
+CREATE TABLE `films_250` (
   `id` int(8) NOT NULL AUTO_INCREMENT COMMENT '编号',
   `title` varchar(64) DEFAULT NULL COMMENT '标题',
-  `subtitle` varchar(64) DEFAULT NULL COMMENT '副标题',
-  `link` varchar(64) DEFAULT NULL COMMENT '豆瓣链接',
-  `img` varchar(5000) DEFAULT NULL COMMENT '封面图片',
+  `link` varchar(64) DEFAULT NULL COMMENT '链接',
+  `img` varchar(5000) DEFAULT NULL COMMENT '图片',
+  `desc` varchar(5000) DEFAULT NULL COMMENT '描述',
   `rate` varchar(8) DEFAULT NULL COMMENT '评分',
-  `quote` varchar(64) DEFAULT NULL COMMENT '简介',
-  `flag` tinyint(8) DEFAULT NULL COMMENT '是否已观影',
+  `number` varchar(8) DEFAULT NULL COMMENT '评分人数',
+  `quote` varchar(5000) DEFAULT NULL COMMENT '点评',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='电影top250';
 
 SET FOREIGN_KEY_CHECKS = 1;

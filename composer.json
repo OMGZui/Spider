@@ -7,10 +7,12 @@
   "require": {
     "shark/simple_html_dom": "dev-master",
     "illuminate/database": "^5.4",
-    "vlucas/phpdotenv": "^2.4"
+    "vlucas/phpdotenv": "^2.4",
+    "jaeger/querylist": "*",
+    "doctrine/dbal": "*"
   },
   "autoload": {
-    "classmap": ["database/"]
+    "classmap": ["database/","films_250/"]
   },
   "minimum-stability": "dev",
   "prefer-stable": true
