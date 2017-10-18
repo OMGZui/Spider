@@ -9,7 +9,8 @@
     "illuminate/database": "^5.4",
     "vlucas/phpdotenv": "^2.4",
     "jaeger/querylist": "*",
-    "doctrine/dbal": "*"
+    "doctrine/dbal": "*",
+    "symfony/var-dumper": "*"
   },
   "autoload": {
     "classmap": ["database/","films_250/"]
