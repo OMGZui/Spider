@@ -10,16 +10,17 @@
 4. 实践sql链式操作
 
 ### 怎么用
-[暂时] 在一个环境中 php index.php  
+在一个环境中 php curl.php 
 
 ### 用什么方式
 随便怎么用，你喜欢就好
 
 ### 有什么
 由简入深
-1. 搭建一个现代php的环境，composer、namespace、use、autoload等
-2. 简易封装
-3. 豆瓣电影top250爬取
+[x] 1. 搭建一个现代php的环境，composer、namespace、use、autoload等
+[x] 2. 简易封装
+[x] 3. 豆瓣电影top250爬取
+[] 4. 《战狼2》共200k条影评爬取
 
 ### TODO
 * [] 《战狼2》影评
