@@ -10,7 +10,9 @@
     "vlucas/phpdotenv": "^2.4",
     "jaeger/querylist": "*",
     "doctrine/dbal": "*",
-    "symfony/var-dumper": "*"
+    "symfony/var-dumper": "*",
+    "fukuball/jieba-php":"*",
+    "jaeger/querylist-curl-multi":"*"
   },
   "autoload": {
     "classmap": ["database/","films_250/"]
