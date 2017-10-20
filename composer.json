@@ -12,7 +12,8 @@
     "doctrine/dbal": "*",
     "symfony/var-dumper": "*",
     "fukuball/jieba-php":"*",
-    "jaeger/querylist-curl-multi":"*"
+    "jaeger/querylist-curl-multi":"*",
+    "predis/predis": "^1.1"
   },
   "autoload": {
     "classmap": ["database/","films_250/"]
