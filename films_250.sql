@@ -1,16 +1,4 @@
 /*
- Navicat Premium Data Transfer
-
- Source Server         : linux-shengj
- Source Server Type    : MySQL
- Source Server Version : 50719
- Source Host           : 104.223.3.138
- Source Database       : spider
-
- Target Server Type    : MySQL
- Target Server Version : 50719
- File Encoding         : utf-8
-
  Date: 10/16/2017 09:50:49 AM
 */
 
