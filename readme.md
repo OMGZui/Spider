@@ -49,7 +49,7 @@ php orm_top250.php
 - [ ] 豆瓣战狼影评爬取
 - [ ] ...
 
-[1]:https://github.com/jae-jae/QueryList
-[2]:https://github.com/symfony/var-dumper
-[3]:https://github.com/illuminate/database
-[4]:https://github.com/vlucas/phpdotenv
+[1]: https://github.com/jae-jae/QueryList
+[2]: https://github.com/symfony/var-dumper
+[3]: https://github.com/illuminate/database
+[4]: https://github.com/vlucas/phpdotenv
