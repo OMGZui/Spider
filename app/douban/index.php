@@ -3,8 +3,9 @@
  * Created by PhpStorm.
  * User: shengj
  * Date: 2017/12/21
- * Time: 15:35
+ * Time: 15:37
  */
 
-// 入口文件
-require __DIR__.'/vendor/autoload.php';
+namespace App\DouBan;
+
+require __DIR__.'/../../index.php';

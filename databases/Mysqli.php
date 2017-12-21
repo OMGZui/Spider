@@ -6,10 +6,12 @@
  * Time: 10:53
  */
 namespace Database;
-class MysqliMysql implements DbInterface
+
+class Mysqli implements DbInterface
 {
     use Builder;
     public $db;
+
     function connect($host, $user, $password, $dbName)
     {
         $conn = new \mysqli($host, $user, $password, $dbName);
@@ -24,7 +26,6 @@ class MysqliMysql implements DbInterface
     public function execute($sql)
     {
         $this->lastSql = $sql;
-//        dd($sql);
         return $this->query($sql);
     }
 
@@ -32,7 +33,5 @@ class MysqliMysql implements DbInterface
     {
         mysqli_close($this->db);
     }
-
-
 
 }

@@ -6,6 +6,7 @@
  * Time: 09:56
  */
 namespace Database;
+
 class DbMysql
 {
     protected static $instance;

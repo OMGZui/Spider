@@ -6,15 +6,16 @@
  * Time: 10:51
  */
 namespace Database;
+
 class SqlFactory extends Factory
 {
     function createPDO()
     {
-        return new PdoMysql();
+        return new Pdo();
     }
 
     function createMysqli()
     {
-        return new MysqliMysql();
+        return new Mysqli();
     }
 }

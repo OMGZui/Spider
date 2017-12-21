@@ -6,7 +6,7 @@
  * Time: 10:12
  */
 
-require 'vendor/autoload.php';
+require __DIR__.'/../index.php';
 
 $arr = [[1, 2, 3, [5, 9]], [7, [10, [21, 22]]]];
 

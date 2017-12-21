@@ -1,6 +1,6 @@
 {
   "name": "omgzui/spider",
-  "description": "douban top 250",
+  "description": "spider",
   "keywords": ["php", "spider"],
   "license": "MIT",
   "type": "project",
@@ -16,8 +16,16 @@
     "predis/predis": "^1.1"
   },
   "autoload": {
-    "classmap": ["database/","films_250/"]
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+    "psr-4": {
+      "App\\": "app/",
+      "Tools\\": "tools/"
+    },
+    "classmap": [
+      "databases/",
+      "models/"
+    ],
+    "files": [
+      "app/Helpers.php"
+    ]
+  }
 }

@@ -8,7 +8,7 @@
 
 ini_set('memory_limit', '1024M');
 
-require 'vendor/autoload.php';
+require __DIR__.'/../index.php';
 
 use Fukuball\Jieba\Jieba;
 use Fukuball\Jieba\Finalseg;

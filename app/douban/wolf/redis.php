@@ -6,18 +6,14 @@
  * Time: 11:55
  */
 
+require __DIR__.'/../index.php';
 
-require 'vendor/autoload.php';
-require 'conn.php';
-
-
-use Films250\Wolf;
-
+\Tools\Conn::init();
 
 $client = new Predis\Client(['host' => env('REDIS_HOST')]);
 $t1 = microtime(true);
 
-$e = Wolf::query()->limit(200000)->get();
+$e = \Models\Wolf::query()->limit(200000)->get();
 $t2 = microtime(true);
 echo (($t2 - $t1)) . 's' . PHP_EOL; // 20w => 1.1464049816132s
 
@@ -57,5 +53,3 @@ foreach ($ids as $item) {
 $t2 = microtime(true);
 echo (($t2 - $t1)) . 's' . PHP_EOL;  // 20w => 32.214903831482s
 
-//dump($r->toArray());
-//dump($films);

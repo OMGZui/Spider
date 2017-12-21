@@ -6,6 +6,7 @@
  * Time: 10:37
  */
 namespace Database;
+
 abstract class Factory
 {
     abstract function createPDO();

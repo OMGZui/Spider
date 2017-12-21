@@ -7,7 +7,7 @@
  */
 namespace Database;
 
-class PdoMysql implements DbInterface
+class Pdo implements DbInterface
 {
     use Builder;
     public $db;
