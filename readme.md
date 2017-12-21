@@ -38,10 +38,10 @@ php orm_top250.php
 
 ## 依赖库
 
-- [jaeger/querylist] [1] 爬虫库
-- [symfony/var-dumper] [2] 调试
-- [illuminate/database] [3] 数据库ORM
-- [vlucas/phpdotenv] [4] .env配置
+- [jaeger/querylist][1] 爬虫库
+- [symfony/var-dumper][2] 调试
+- [illuminate/database][3] 数据库ORM
+- [vlucas/phpdotenv][4] .env配置
 
 ## 小目标
 
@@ -49,7 +49,7 @@ php orm_top250.php
 - [ ] 豆瓣战狼影评爬取
 - [ ] ...
 
-[1]: https://github.com/jae-jae/QueryList
-[2]: https://github.com/symfony/var-dumper
-[3]: https://github.com/illuminate/database
-[4]: https://github.com/vlucas/phpdotenv
+[1]: "https://github.com/jae-jae/QueryList"
+[2]: "https://github.com/symfony/var-dumper"
+[3]: "https://github.com/illuminate/database"
+[4]: "https://github.com/vlucas/phpdotenv"
